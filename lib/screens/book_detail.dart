@@ -78,6 +78,23 @@ class BookDetailScreen extends StatelessWidget {
                 book['description'] ?? "No description available",
                 style: TextStyle(fontSize: 16),
               ),
+
+              const SizedBox(height: 25),
+              SizedBox(
+                width: double.infinity,
+                child: ElevatedButton(
+                  onPressed: () {
+                    Navigator.pushNamed(
+                      context,
+                      '/order',
+                      arguments: book,
+                    );
+                  },
+                  child: Text("Order Now"),
+                ),
+              ),
+
+
             ],
           ),
         ),
