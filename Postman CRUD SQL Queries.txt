@@ -1,0 +1,26 @@
+http://localhost:3000/books
+http://localhost:3000/orders
+http://localhost:3000/userRoutes/login
+http://localhost:3000/userRoutes/register
+
+{
+  "title": "Good to Great",
+  "author": "Jim Collins",
+  "price": 19.99,
+  "description": "A business book that analyzes how companies make the transition from being good to becoming truly great.",
+  "image_url": "https://covers.openlibrary.org/b/isbn/9780066620992-L.jpg"
+}
+
+
+{
+  "name": "Ali",
+  "email": "ali@gmail.com",
+  "password": "123456"
+}
+
+{
+  "book_id": 1,
+  "customer_name": "Ali",
+  "quantity": 2,
+  "total_price": 60
+}
